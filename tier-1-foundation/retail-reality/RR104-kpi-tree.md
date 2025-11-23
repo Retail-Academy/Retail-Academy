@@ -27,9 +27,9 @@ Ví dụ minh họa:
        /       |        \
     GP     SG&A      Other Income
    / \
-Sales COGS
-/
-Traffic Conversion
+    Sales COGS
+        /
+    Traffic Conversion
 
 
 ---
@@ -55,9 +55,9 @@ Một KPI Tree chuẩn phải trả lời được 3 lớp câu hỏi:
 Ví dụ:
 
 Sales ↓
-├── Traffic ↓ → Lý do: mưa, thời tiết, cửa hàng tối, signage yếu
-├── Conversion ↓ → Lý do: thiếu nhân sự, thiếu demo, thiếu training
-└── ASP ↓ → Lý do: thiếu model giá cao, đối thủ giảm giá'
+    Traffic ↓ → Lý do: mưa, thời tiết, cửa hàng tối, signage yếu
+    Conversion ↓ → Lý do: thiếu nhân sự, thiếu demo, thiếu training
+    ASP ↓ → Lý do: thiếu model giá cao, đối thủ giảm giá'
 
 
 ---
@@ -91,37 +91,6 @@ Service Time + NPS + Complaint Rate + Fulfillment Accuracy
 
 ---
 
-## 📌 4. Leading vs Lagging KPIs
-
-### **Lagging KPIs (kết quả):**
-- EBIT  
-- GP  
-- Sales  
-- Stock loss  
-- Aging stock  
-
-### **Leading KPIs (đầu vào):**
-- Traffic  
-- Demo rate  
-- Availability (in-stock)  
-- Display share  
-- Price competitiveness  
-- Conversion  
-- NPS  
-
-**Khi bạn chỉ nhìn lagging KPIs → luôn phát hiện vấn đề MUỘN.  
-Khi bạn kiểm soát leading KPIs → bạn CHỦ ĐỘNG thay đổi kết quả.**
-
----
-
-## 🧪 5. Exercise: Vẽ KPI Tree cho một cửa hàng thật
-
-**Tình huống:**  
-Store giảm 12% doanh số trong 2 tháng liên tiếp.
-
-Bạn phân rã như sau:
-
----
 
 ## 📌 4. Leading vs Lagging KPIs
 
@@ -153,10 +122,10 @@ Store giảm 12% doanh số trong 2 tháng liên tiếp.
 
 Bạn phân rã như sau:
 Sales -12%
-├── Traffic -5%
-├── Conversion -4%
-├── ASP -2%
-└── UPT -1%
+    Traffic -5%
+    Conversion -4%
+    ASP -2%
+    UPT -1%
 
 
 ➡ Kết luận ban đầu:
