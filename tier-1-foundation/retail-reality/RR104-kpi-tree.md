@@ -4,360 +4,206 @@ layout: default
 ---
 
 # 🌳 RR104 – KPI Tree  
-**Tư duy hệ thống qua bản đồ KPI – từ hành động nhỏ đến kết quả lớn**
+**Phân rã mục tiêu từ Sales → GP → EBIT → Cashflow để hiểu hệ thống vận hành thật sự.**
 
-Trong bán lẻ, mọi con số đều liên kết với nhau. Một thay đổi nhỏ trong traffic, một sai lệch nhỏ ở quy trình, hay một quyết định nhỏ trong pricing đều có thể tạo ra ảnh hưởng lớn lên doanh thu, lợi nhuận và trải nghiệm khách hàng.
+KPI Tree là một trong những tư duy quan trọng nhất trong Retail — giúp người làm nghề nhìn thấy **bản chất của vấn đề**, tránh đổ lỗi cảm tính, và hiểu rõ một thay đổi nhỏ có thể ảnh hưởng đến cả hệ thống như thế nào.
 
-**RR104 – KPI Tree** giúp bạn nhìn thấy toàn bộ “cây hệ thống” này – rõ ràng, trực quan, và logic.
-
----
-
-# 🌟 1. KPI Tree là gì?
-KPI Tree là **bản đồ phân rã mục tiêu**, cho bạn thấy:
-
-- KPI lớn → được tạo thành từ những KPI nhỏ hơn  
-- Kết quả → đến từ hành động  
-- EBIT / Lợi nhuận → không phải phép màu, mà là hệ quả của logic vận hành  
-
-KPI Tree giúp bạn trả lời câu hỏi:  
-**“Muốn tăng kết quả X, thì mình phải tác động vào yếu tố A → B → C nào?”**
+Nội dung bài học này sẽ giúp bạn:
+- Nhìn thấy mối quan hệ giữa các KPI trong toàn doanh nghiệp  
+- Hiểu sự khác nhau giữa KPI dẫn dắt (leading) và KPI kết quả (lagging)  
+- Biết cách phân rã mục tiêu để đưa ra hành động thực tế  
+- Biết cách kết nối dữ liệu cửa hàng vào mô hình quyết định  
 
 ---
 
-# 🌐 2. Cấu trúc tổng thể của KPI Tree Retail
+## 🎯 1. KPI Tree là gì?
 
-Dưới đây là bản phân rã tiêu chuẩn:
+**KPI Tree = Sơ đồ phân rã mục tiêu**  
+Từ một mục tiêu cấp cao (EBIT hoặc Cashflow), bạn phân rã thành các yếu tố nhỏ có thể hành động được ở cửa hàng.
 
----
-title: "RR104 – KPI Tree"
-layout: default
----
+Ví dụ minh họa:
 
-# 🌳 RR104 – KPI Tree  
-**Tư duy hệ thống qua bản đồ KPI – từ hành động nhỏ đến kết quả lớn**
+            EBIT
+       /       |        \
+    GP     SG&A      Other Income
+   / \
+Sales COGS
+/
+Traffic Conversion
 
-Trong bán lẻ, mọi con số đều liên kết với nhau. Một thay đổi nhỏ trong traffic, một sai lệch nhỏ ở quy trình, hay một quyết định nhỏ trong pricing đều có thể tạo ra ảnh hưởng lớn lên doanh thu, lợi nhuận và trải nghiệm khách hàng.
-
-**RR104 – KPI Tree** giúp bạn nhìn thấy toàn bộ “cây hệ thống” này – rõ ràng, trực quan, và logic.
-
----
-
-# 🌟 1. KPI Tree là gì?
-KPI Tree là **bản đồ phân rã mục tiêu**, cho bạn thấy:
-
-- KPI lớn → được tạo thành từ những KPI nhỏ hơn  
-- Kết quả → đến từ hành động  
-- EBIT / Lợi nhuận → không phải phép màu, mà là hệ quả của logic vận hành  
-
-KPI Tree giúp bạn trả lời câu hỏi:  
-**“Muốn tăng kết quả X, thì mình phải tác động vào yếu tố A → B → C nào?”**
 
 ---
 
-# 🌐 2. Cấu trúc tổng thể của KPI Tree Retail
+## 🔍 2. Tư duy "Từ kết quả → đến nguyên nhân → đến hành động"
 
-Dưới đây là bản phân rã tiêu chuẩn:
+Một KPI Tree chuẩn phải trả lời được 3 lớp câu hỏi:
 
-EBIT
-├── Gross Profit (GP)
-│ ├── Sales
-│ │ ├── Traffic
-│ │ └── Conversion Rate
-│ │ ├── Service
-│ │ ├── Display / Layout
-│ │ ├── Stock Availability
-│ │ └── Price Competitiveness
-│ └── Margin
-│ ├── Pricing Strategy
-│ ├── Promotion
-│ └── Mix (Brand / Category)
-└── Operating Expenses (OPEX)
-├── Labor Cost
-├── Store Operation Cost
-├── Promotion Expense
-└── Logistics & Supply Chain Cost
+1. **KPI kết quả**  
+   - Lợi nhuận?  
+   - Doanh thu?  
+   - GP?  
+   - Stock turn?  
 
+2. **KPI nguyên nhân**  
+   - Do đâu doanh thu thay đổi?  
+   - Conversion hay Traffic hay ASP?  
+   - Do pricing hay promotion?  
 
-**Một KPI lớn không bao giờ đứng một mình — nó là kết quả của rất nhiều biến nhỏ.**
+3. **KPI hành động (Actionable KPIs)**  
+   - Mỗi KPI con phải dẫn đến một hành động rõ ràng.
+
+Ví dụ:
+
+Sales ↓
+├── Traffic ↓ → Lý do: mưa, thời tiết, cửa hàng tối, signage yếu
+├── Conversion ↓ → Lý do: thiếu nhân sự, thiếu demo, thiếu training
+└── ASP ↓ → Lý do: thiếu model giá cao, đối thủ giảm giá'
+
 
 ---
 
-# 🌍 3. Đi sâu vào từng tầng của KPI Tree
+## 🌟 3. KPI Tree chuẩn trong Retail
 
-## 3.1 **EBIT – Chỉ số sống còn**
-EBIT phản ánh:
-- khả năng tạo giá trị  
-- hiệu quả vận hành  
-- mức độ cạnh tranh  
-- mức độ lành mạnh của hệ thống  
+### KPI cấp doanh nghiệp:
+EBIT =
+GP – Operating Expenses (OPEX)
 
-👉 Nhưng EBIT không thể cải thiện trực tiếp.  
-**Bạn chỉ có thể cải thiện những KPI dưới nó.**
+
+### KPI cấp cửa hàng:
+GP =
+Sales – COGS
+
+
+### KPI bán hàng (Sales):
+Sales =
+Traffic × Conversion × ASP × Unit per Transaction (UPT)
+
+
+### KPI tồn kho:
+Stock Health =
+Sell-thru × Days of Inventory (DOI) × Aging Ratio
+
+
+### KPI vận hành:
+Customer Experience =
+Service Time + NPS + Complaint Rate + Fulfillment Accuracy
+
 
 ---
 
-## 3.2 **Gross Profit**
-GP = Sales × Margin
+## 📌 4. Leading vs Lagging KPIs
 
-Điểm quan trọng:
-- GP chính là “sức khỏe thật” của cửa hàng  
-- Khi Sales tăng nhưng Margin thấp → GP không tăng  
-- Khi Margin cao nhưng Volume thấp → GP vẫn thấp  
+### **Lagging KPIs (kết quả):**
+- EBIT  
+- GP  
+- Sales  
+- Stock loss  
+- Aging stock  
 
-**GP là cầu nối giữa “tăng trưởng doanh thu” và “hiệu quả kinh tế”.**
+### **Leading KPIs (đầu vào):**
+- Traffic  
+- Demo rate  
+- Availability (in-stock)  
+- Display share  
+- Price competitiveness  
+- Conversion  
+- NPS  
 
----
-
-## 3.3 **Sales – Doanh thu**
-Sales được hình thành từ:
-
-
-**Một KPI lớn không bao giờ đứng một mình — nó là kết quả của rất nhiều biến nhỏ.**
-
----
-
-# 🌍 3. Đi sâu vào từng tầng của KPI Tree
-
-## 3.1 **EBIT – Chỉ số sống còn**
-EBIT phản ánh:
-- khả năng tạo giá trị  
-- hiệu quả vận hành  
-- mức độ cạnh tranh  
-- mức độ lành mạnh của hệ thống  
-
-👉 Nhưng EBIT không thể cải thiện trực tiếp.  
-**Bạn chỉ có thể cải thiện những KPI dưới nó.**
+**Khi bạn chỉ nhìn lagging KPIs → luôn phát hiện vấn đề MUỘN.  
+Khi bạn kiểm soát leading KPIs → bạn CHỦ ĐỘNG thay đổi kết quả.**
 
 ---
 
-## 3.2 **Gross Profit**
-GP = Sales × Margin
+## 🧪 5. Exercise: Vẽ KPI Tree cho một cửa hàng thật
 
-Điểm quan trọng:
-- GP chính là “sức khỏe thật” của cửa hàng  
-- Khi Sales tăng nhưng Margin thấp → GP không tăng  
-- Khi Margin cao nhưng Volume thấp → GP vẫn thấp  
+**Tình huống:**  
+Store giảm 12% doanh số trong 2 tháng liên tiếp.
 
-**GP là cầu nối giữa “tăng trưởng doanh thu” và “hiệu quả kinh tế”.**
+Bạn phân rã như sau:
 
 ---
 
-## 3.3 **Sales – Doanh thu**
-Sales được hình thành từ:
+## 📌 4. Leading vs Lagging KPIs
 
-Sales = Traffic × Conversion × ATV (Average Ticket Value)
+### **Lagging KPIs (kết quả):**
+- EBIT  
+- GP  
+- Sales  
+- Stock loss  
+- Aging stock  
 
+### **Leading KPIs (đầu vào):**
+- Traffic  
+- Demo rate  
+- Availability (in-stock)  
+- Display share  
+- Price competitiveness  
+- Conversion  
+- NPS  
 
-Ba biến này phản ánh toàn bộ trải nghiệm khách hàng:
-- Traffic: khách có đến hay không  
-- Conversion: khách có mua hay không  
-- ATV: khách mua ít hay nhiều  
-
-Bạn không thể cải thiện Sales nếu không nhìn từng biến này.
-
----
-
-## 3.4 **Traffic – Lượng khách**
-Traffic phụ thuộc vào:
-- marketing  
-- vị trí cửa hàng  
-- nhận diện thương hiệu  
-- thời điểm (mùa vụ – promotion)  
-
-**Traffic là “điểm bắt đầu của doanh thu”.**
+**Khi bạn chỉ nhìn lagging KPIs → luôn phát hiện vấn đề MUỘN.  
+Khi bạn kiểm soát leading KPIs → bạn CHỦ ĐỘNG thay đổi kết quả.**
 
 ---
 
-## 3.5 **Conversion – Tỷ lệ khách mua**
-Conversion quyết định “hiệu quả bán hàng”.
+## 🧪 5. Exercise: Vẽ KPI Tree cho một cửa hàng thật
 
-Các yếu tố quan trọng:
-- **Service**: tư vấn có tốt không?  
-- **Display / Layout**: hàng hóa có gọn gàng, dễ tiếp cận?  
-- **Stock Availability**: có hàng không?  
-- **Price Competitiveness**: giá có cạnh tranh không?  
-- **Promotion Clarity**: khuyến mãi có dễ hiểu không?
+**Tình huống:**  
+Store giảm 12% doanh số trong 2 tháng liên tiếp.
 
-Trong thực tế, Conversion là **KPI mạnh nhất**, vì:
-- tăng 1% → tác động trực tiếp lên Sales  
-- ít tốn chi phí hơn tăng Traffic  
+Bạn phân rã như sau:
+Sales -12%
+├── Traffic -5%
+├── Conversion -4%
+├── ASP -2%
+└── UPT -1%
 
----
 
-## 3.6 **Margin – Biên lợi nhuận**
-Margin không chỉ là “giá nhập thấp – giá bán cao”.  
-Nó phụ thuộc vào:
+➡ Kết luận ban đầu:
 
-- Mix sản phẩm (Model mix, Brand mix, Category mix)  
-- Promotion  
-- Chính sách vendor  
-- Seasonal pricing  
-- Negotiation skill của buyer  
+- Traffic giảm ít → chưa phải vấn đề chính  
+- Conversion giảm mạnh → tập trung vào con người & trải nghiệm cửa hàng  
+- ASP giảm → kiểm tra assortment, thiếu model giá cao  
+- UPT giảm → thiếu cross-sell?  
 
-Margin = “chất lượng của quản trị kinh doanh”.
+**Hành động đề xuất:**
+1. Training lại đội ngũ demo  
+2. Kiểm tra tồn kho model high-end  
+3. Set combo cross-sell cho ngành hàng chính  
 
 ---
 
-## 3.7 **OPEX – Chi phí vận hành**
-OPEX gồm:
-- Labor  
-- Rent  
-- Utilities  
-- Operation cost  
-- Logistics  
-- Promotion expense  
+## 🎒 6. Output bạn đạt được sau bài học
 
-Giảm OPEX không có nghĩa là cắt bừa.  
-**Giảm đúng chỗ → tăng EBIT**  
-**Giảm sai chỗ → mất khách → giảm GP**
-
-OPEX là nơi thể hiện nghệ thuật **tối ưu**, không phải **cắt giảm**.
+Sau bài học RR104, bạn sẽ:
+- Biết phân rã một KPI lớn thành hệ thống nguyên nhân – hành động  
+- Hiểu cách đo và đọc từng KPI trong thực tế cửa hàng  
+- Biết cách dùng KPI Tree cho các cuộc họp phân tích performance  
+- Biết cách kết nối dữ liệu (traffic, conversion, ASP…) vào việc ra quyết định  
 
 ---
 
-# 🌱 4. Vì sao nhân viên cửa hàng cần hiểu KPI Tree?
-Vì KPI Tree giúp họ:
+## 📚 Liên kết bài học cùng nhóm FOUNDATION
 
-- thấy được hành động nhỏ ảnh hưởng đến doanh thu  
-- hiểu rằng “bày hàng đúng” = tăng conversion  
-- hiểu rằng “kiểm tra tồn” = tăng stock availability  
-- hiểu rằng “giải thích khuyến mãi rõ” = tăng ATV  
-- hiểu rằng “tư vấn thật lòng” = tăng giá trị thương hiệu  
-
-KPI Tree biến nhân viên thành:
-**“người vận hành hiểu hệ thống” – chứ không chỉ làm theo SOP.**
+- [RR101 – How Retail Works](../../tier-1-foundation/retail-reality/RR101-how-retail-works.md)  
+- [RR102 – Inside a Store](../../tier-1-foundation/retail-reality/RR102-inside-a-store.md)  
+- [RR103 – Business Model & Value Chain](../../tier-1-foundation/retail-reality/RR103-business-model-value-chain.md)  
+- **RR104 – KPI Tree (bài hiện tại)**  
+- [FD201 – Finance Made Simple](../../tier-1-foundation/finance-data/FD201-finance-made-simple.md)  
+- [FD202 – Data Literacy](../../tier-1-foundation/finance-data/FD202-data-literacy.md)  
+- [FD203 – Excel, Power BI & Python](../../tier-1-foundation/finance-data/FD203-tools-excel-powerbi-python.md)
 
 ---
 
-# 💡 5. Case Study – 1% Conversion tăng làm thay đổi điều gì?
-
-Giả sử:
-- Traffic = 10,000 khách  
-- Conversion = 10% → 11%  
-- ATV = 3,000,000 VND  
-
-Doanh thu tăng thêm:
-
-
-Ba biến này phản ánh toàn bộ trải nghiệm khách hàng:
-- Traffic: khách có đến hay không  
-- Conversion: khách có mua hay không  
-- ATV: khách mua ít hay nhiều  
-
-Bạn không thể cải thiện Sales nếu không nhìn từng biến này.
-
----
-
-## 3.4 **Traffic – Lượng khách**
-Traffic phụ thuộc vào:
-- marketing  
-- vị trí cửa hàng  
-- nhận diện thương hiệu  
-- thời điểm (mùa vụ – promotion)  
-
-**Traffic là “điểm bắt đầu của doanh thu”.**
-
----
-
-## 3.5 **Conversion – Tỷ lệ khách mua**
-Conversion quyết định “hiệu quả bán hàng”.
-
-Các yếu tố quan trọng:
-- **Service**: tư vấn có tốt không?  
-- **Display / Layout**: hàng hóa có gọn gàng, dễ tiếp cận?  
-- **Stock Availability**: có hàng không?  
-- **Price Competitiveness**: giá có cạnh tranh không?  
-- **Promotion Clarity**: khuyến mãi có dễ hiểu không?
-
-Trong thực tế, Conversion là **KPI mạnh nhất**, vì:
-- tăng 1% → tác động trực tiếp lên Sales  
-- ít tốn chi phí hơn tăng Traffic  
-
----
-
-## 3.6 **Margin – Biên lợi nhuận**
-Margin không chỉ là “giá nhập thấp – giá bán cao”.  
-Nó phụ thuộc vào:
-
-- Mix sản phẩm (Model mix, Brand mix, Category mix)  
-- Promotion  
-- Chính sách vendor  
-- Seasonal pricing  
-- Negotiation skill của buyer  
-
-Margin = “chất lượng của quản trị kinh doanh”.
-
----
-
-## 3.7 **OPEX – Chi phí vận hành**
-OPEX gồm:
-- Labor  
-- Rent  
-- Utilities  
-- Operation cost  
-- Logistics  
-- Promotion expense  
-
-Giảm OPEX không có nghĩa là cắt bừa.  
-**Giảm đúng chỗ → tăng EBIT**  
-**Giảm sai chỗ → mất khách → giảm GP**
-
-OPEX là nơi thể hiện nghệ thuật **tối ưu**, không phải **cắt giảm**.
-
----
-
-# 🌱 4. Vì sao nhân viên cửa hàng cần hiểu KPI Tree?
-Vì KPI Tree giúp họ:
-
-- thấy được hành động nhỏ ảnh hưởng đến doanh thu  
-- hiểu rằng “bày hàng đúng” = tăng conversion  
-- hiểu rằng “kiểm tra tồn” = tăng stock availability  
-- hiểu rằng “giải thích khuyến mãi rõ” = tăng ATV  
-- hiểu rằng “tư vấn thật lòng” = tăng giá trị thương hiệu  
-
-KPI Tree biến nhân viên thành:
-**“người vận hành hiểu hệ thống” – chứ không chỉ làm theo SOP.**
-
----
-
-# 💡 5. Case Study – 1% Conversion tăng làm thay đổi điều gì?
-
-Giả sử:
-- Traffic = 10,000 khách  
-- Conversion = 10% → 11%  
-- ATV = 3,000,000 VND  
-
-Doanh thu tăng thêm:
-
-(10,000 × 0.11 × 3M) – (10,000 × 0.10 × 3M)
-= 300,000,000 VND / tháng
+## 💬 Gợi ý mở rộng tài liệu
+Khi bạn sẵn sàng phát triển phiên bản Medium, có thể mở rộng thêm:
+- KPI Tree cho marketplace  
+- KPI Tree cho kênh online  
+- KPI Tree cho telesales  
+- KPI Tree cho omnichannel  
+- KPI Tree dùng dữ liệu AI để dự đoán performance  
 
 
-**Chỉ từ 1% Conversion.**
 
----
 
-# 🎯 6. Bài tập thực hành (bắt buộc)
-1. Vẽ lại KPI Tree của cửa hàng bạn  
-2. Chỉ ra 1 node bạn có thể tác động ngay hôm nay  
-3. Đề xuất 3 hành động cụ thể  
-4. Dự đoán KPI sẽ thay đổi như thế nào  
 
----
-
-# 📌 7. Output sau bài học
-Sau RR104, bạn có thể:
-
-- phân tích nguyên nhân gốc (root-cause) của vấn đề  
-- không “đoán mò” mà dựa vào dữ liệu  
-- biết tăng kết quả đúng cách → thay vì làm bừa  
-- nhìn hệ thống như một tổng thể, không phải từng mảnh rời rạc  
-
----
-
-# 🌳 Kết luận: KPI Tree không phải con số — mà là **tư duy hệ thống**
-Ai hiểu KPI Tree → hiểu vận hành.  
-Ai hiểu vận hành → có thể cải thiện cửa hàng.  
-Ai cải thiện cửa hàng → sẽ trở thành leader.  
-
-**RR104 là bài học chuyển đổi tư duy – từ làm việc theo cảm tính → làm việc có hệ thống.**
